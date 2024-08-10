@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+**Objective :**
+Develop a fully responsive web and mobile dashboard application using ReactJS. The dashboard should dynamically display data, include interactive components, and provide a seamless user experience across various devices.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Requirements**
+**Responsive Design**
+Ensure the dashboard is fully responsive and provides an optimal user experience on desktops, tablets, and mobile devices.
+Use CSS Grid/Flexbox for layout and ensure cross-browser compatibility.
+**Web Dashboard**
+Create a web dashboard with the following sections:
+**Header:** Contains navigation links, user profile, and notification icons.
 
-## Available Scripts
+**Sidebar:** Includes links to different dashboard pages (e.g., Overview, Analytics, Settings).
 
-In the project directory, you can run:
+**Main Content Area:** Displays a grid of widgets showing various metrics and charts.
 
-### `npm start`
+**Footer: ** Contains brief information about the application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Mobile Dashboard**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Adapt the web dashboard layout to a mobile-friendly design.
 
-### `npm test`
+**Header:** Same as web but optimized for mobile view.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Collapsible Sidebar:** Should be hidden by default and accessible via a hamburger menu.
 
-### `npm run build`
+**Main Content Area:** Optimized for vertical scrolling, with widgets stacked.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Widgets**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Implement interactive widgets for the dashboard, including:
+Line chart showing user activity over time.
+Bar chart displaying sales data.
+Pie chart depicting user demographics.
+Recent activity feed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Data Integration**
+Fetch data from a mock API and dynamically populate the widgets.
+Ensure real-time data updates and error handling.
 
-### `npm run eject`
+**State Management**
+Use Redux for state management to handle global states and ensure consistency across components.
+Properly structure and modularize Redux code (actions, reducers, store).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Form Handling**
+Implement a settings page with forms for updating user preferences.
+Use form validation and ensure a smooth user experience.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Code Quality**
+Follow best practices for React component development.
+Ensure the code is clean, modular, and well-documented.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Dark Mode:** Implement a toggle feature to switch between light and dark themes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Performance Optimization:** Optimize the application for performance, including lazy loading of components and code splitting.
 
-## Learn More
+**Evaluation Criteria**
+**Responsiveness:** The application should work flawlessly on different screen sizes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Interactivity:** Widgets should be interactive and update dynamically based on data changes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Code Quality:** Clean, well-structured, and documented code following ReactJS best practices.
 
-### Code Splitting
+**Data Integration:** Proper handling of data fetching, state management, and error handling.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**UI/UX:** The overall design and user experience should be intuitive and visually appealing.
